@@ -6,7 +6,6 @@ def clear_and_print(num):
   
     os.system('cls' if os.name=='nt' else 'clear')
 
-   
     print(num)
 
 def main():
@@ -21,8 +20,8 @@ def main():
         else:
             print("Tecla no válida. Presiona 'n' para continuar.")
 
-       
         time.sleep(0.5)
 
 if __name__ == "__main__":
     main()
+    
